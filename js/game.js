@@ -30,7 +30,7 @@ function Game(){
     stage.load(stages[index]);
     this.currentStage = stages[index];
     state.set("stageComparing", false);
-    if (scores.length >= 10) return finish();
+    if (scores.length >= 5) return finish();
   }
 
   function nextStage(){
@@ -66,7 +66,7 @@ function Game(){
 
     dom.gid("overlay").classList.add("show");
 
-    const score = Math.ceil(state.get("stageScore").reduce((a, b) => parseInt(a, 10) + parseInt(b, 10))/10)
+    const score = Math.ceil(state.get("stageScore").reduce((a, b) => parseInt(a, 10) + parseInt(b, 10)))
     anime({
       targets: "#finaltotalscore",
       duration: 2000,

@@ -1,0 +1,39 @@
+
+body2{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container2{
+	width: 500px;
+	padding: 30px;
+	border: 1px solid #eeeeee;
+	border-radius: 10px;
+	background-color: #003b5b;
+}
+h4{
+	margin-bottom: 10px;
+	font-size: 24px;
+	color: white;
+}
+input2{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+textarea2{
+	width: 100%;
+	padding: 10px;
+}
+#submit2{
+	border: none;
+	background-color: orangered;
+	color: white;
+	width: 200px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+#submit2:hover{
+	background-color: #333333;
+}

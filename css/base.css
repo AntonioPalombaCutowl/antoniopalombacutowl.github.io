@@ -410,3 +410,17 @@ body .hidden {
     display: none;
   }
 }
+
+.vertical-form input[type="text"],
+.vertical-form input[type="email"],
+.vertical-form input[type="submit"] {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.vertical-form input[type="submit"] {
+    width: auto;
+    cursor: pointer;
+}
