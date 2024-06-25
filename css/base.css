@@ -411,17 +411,63 @@ body .hidden {
   }
 }
 
-.vertical-form input[type="text"],
+/* .vertical-form input[type="text"],
 .vertical-form input[type="email"],
 .vertical-form input[type="submit"] {
     display: block;
     margin: 10px 0;
     width: 100%;
     box-sizing: border-box;
+} */
+
+.vertical-form h4 {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.0em;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.vertical-form input[type="text"],
+.vertical-form input[type="email"],
+.vertical-form input[type="submit"] {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.5em;
+}
+
+.vertical-form input[type="text"]:focus,
+.vertical-form input[type="email"]:focus {
+  border-color: #66afe9;
+  outline: none;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
 }
 
 .vertical-form input[type="submit"] {
-    width: auto;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.vertical-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.vertical-form input[type="submit"]:focus {
+  outline: none;
+}
+
+.vertical-form input[type="submit"] {
+    width: 100%;
     cursor: pointer;
 }
 
