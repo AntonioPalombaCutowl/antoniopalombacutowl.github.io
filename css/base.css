@@ -424,3 +424,10 @@ body .hidden {
     width: auto;
     cursor: pointer;
 }
+
+.responsive-logo {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  padding: 20px;
+}
